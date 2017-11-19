@@ -38,9 +38,9 @@ public class RockPaperScissors extends JPanel implements ActionListener{
 			// Drop the pictures into this package
 			// Replace the names below with your images
 		
-			rockImage = new ImageIcon(getClass().getResource("rock.png"));
-			paperImage = new ImageIcon(getClass().getResource("paper.jpeg"));
-			scissorsImage = new ImageIcon(getClass().getResource("scissors.jpeg"));
+			rockImage = new ImageIcon(getClass().getResource("the rock.jpg"));
+			paperImage = new ImageIcon(getClass().getResource("toilet paper.jpg"));
+			scissorsImage = new ImageIcon(getClass().getResource("finger scissors.jpg"));
 
 		} catch (Exception ex) {
 			JOptionPane.showMessageDialog(null, "Cannot find one or more of your images");
